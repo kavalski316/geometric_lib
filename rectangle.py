@@ -7,6 +7,9 @@ def area(a, b):
                     b (int/float): ширина прямоугольника
             
             Возвращаемое значение: площадь прямоугольника (int/float)
+
+            Input: (6, 4)
+            Output: (24)
     ''' 
     return a * b 
 
@@ -19,5 +22,8 @@ def perimeter(a, b):
                     b (int/float): ширина прямоугольника
 
             Возвращаемое значение: периметр прямоугольника (int/float)
+
+            Input: (6, 4)
+            Output: (20)
     ''' 
     return (a + b) * 2 
