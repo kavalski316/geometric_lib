@@ -1,18 +1,18 @@
 # Математические формулы
 4 программы, в каждой из которой находятся функции по вычислению периметра и площади для конкретной фигуры(круг, квадрат, треугольник, прямоугольник)
-## Круг [`circle.py`](https://github.com/kavalski316/geometric_lib/blob/new_features_465315/circle.py)
+## Круг [`circle.py`](../circle.py)
 - `area(r)` - находит площадь по заданному значению радиуса r
 - `perimeter(r)` - находит периметр по заданному значению радиуса r
 
-## Прямоугольник [`rectangle.py`](https://github.com/kavalski316/geometric_lib/blob/new_features_465315/rectangle.py)
+## Прямоугольник [`rectangle.py`](../rectangle.py)
 - `area(a, b)` - находит площадь по заданным значениям длины и ширины прямоугольника a и b соответственно
 - `perimeter(a, b)` - находит периметр по аналогичным параметрам a и b
 
-## Квадрат [`square.py`](https://github.com/kavalski316/geometric_lib/blob/new_features_465315/square.py)
+## Квадрат [`square.py`](../square.py)
 - `area(a)` - находит площадь по заданному значению стороны квадрата a
 - `perimeter(a)` - находит периметр по заданному значению стороны квадрата a
 
-## Треугольник [`triangle.py`](https://github.com/kavalski316/geometric_lib/blob/new_features_465315/triangle.py)
+## Треугольник [`triangle.py`](../triangle.py)
 - `area(a, h)` - находит площадь по заданным значению стороны и высоты треугольника, проведенной к ней, a и h соответсвенно
 - `perimeter(a, b, с)` - находит периметр по переданным значениям сторон треугольника a, b, c
 
