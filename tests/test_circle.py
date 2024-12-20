@@ -17,9 +17,6 @@ class CircleTestArea(unittest.TestCase):
 
 class CircleTestPerimeter(unittest.TestCase):
     def test_positive_values(self):
-        self.assertEqual(perimeter(2), 4 * math.pi)
-        self.assertEqual(perimeter(13), 26 * math.pi)
-        self.assertEqual(perimeter(0.3), 0.6 * math.pi)
         for radius, expected in [(2, 4 * math.pi), (13, 26 * math.pi), (0.3, 0.6 * math.pi)]:
             with self.subTest(radius=radius):
                 self.assertEqual(perimeter(radius), expected)
